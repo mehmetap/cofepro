@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#F8F3EC" android:fillViewport="true">
+  <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="24dp" android:orientation="vertical">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="COFFEEORDER / PRO" android:textColor="#7C563D" android:textSize="14sp" android:letterSpacing="0.16" android:layout_marginTop="22dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Kahveni seç.\nKeyfini yaşa." android:textColor="#2D201A" android:textSize="34sp" android:textStyle="bold" android:layout_marginTop="14dp" android:layout_marginBottom="28dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="MÜŞTERİ" android:textStyle="bold" android:textColor="#6C5243"/>
+    <EditText android:id="@+id/customerName" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Adınız" android:inputType="textPersonName" android:layout_marginBottom="12dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="MASA NUMARASI" android:textStyle="bold" android:textColor="#6C5243"/>
+    <EditText android:id="@+id/tableNumber" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Örn. 5" android:inputType="number" android:layout_marginBottom="12dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="KAHVE SEÇİMİ" android:textStyle="bold" android:textColor="#6C5243"/>
+    <Spinner android:id="@+id/coffeeSpinner" android:layout_width="match_parent" android:layout_height="54dp" android:layout_marginBottom="16dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="ADET" android:textStyle="bold" android:textColor="#6C5243"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center" android:layout_marginBottom="16dp">
+      <Button android:id="@+id/minusButton" android:layout_width="72dp" android:layout_height="56dp" android:text="−"/>
+      <TextView android:id="@+id/quantityText" android:layout_width="80dp" android:layout_height="wrap_content" android:text="1" android:gravity="center" android:textSize="26sp" android:textColor="#2D201A"/>
+      <Button android:id="@+id/plusButton" android:layout_width="72dp" android:layout_height="56dp" android:text="+"/>
+    </LinearLayout>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="EKSTRALAR" android:textStyle="bold" android:textColor="#6C5243"/>
+    <CheckBox android:id="@+id/creamCheck" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Krema  +15 ₺"/>
+    <CheckBox android:id="@+id/chocolateCheck" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Çikolata  +20 ₺"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="TOPLAM" android:gravity="center" android:textColor="#7C563D" android:layout_marginTop="22dp"/>
+    <TextView android:id="@+id/totalText" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="60 ₺" android:textSize="38sp" android:textStyle="bold" android:textColor="#2D201A" android:gravity="center" android:layout_marginBottom="18dp"/>
+    <Button android:id="@+id/orderButton" android:layout_width="match_parent" android:layout_height="56dp" android:text="SİPARİŞ ÖZETİNİ GÖSTER" android:textColor="#FFFFFF" android:backgroundTint="#513827"/>
+    <Button android:id="@+id/resetButton" android:layout_width="match_parent" android:layout_height="54dp" android:text="SIFIRLA" android:backgroundTint="#D4C3B3" android:layout_marginTop="8dp"/>
+  </LinearLayout>
+</ScrollView>

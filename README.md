@@ -89,3 +89,8 @@ CoffeeOrder Pro v0.1, Mobil Uygulama Dersi kapsamında Kotlin ve XML ile kullan�
 Ders: Mobil Uygulama Dersi Ödevi
 Öğrenci No: 250053429
 Proje: CoffeeOrder Pro
+
+
+## Depo düzenleme ve doğrulama
+
+ZIP içindeki kaynaklar depo köküne çıkarıldı; Android Studio için doğrudan bu kökü açabilirsiniz. Orijinal ZIP arşiv olarak korundu. Web JavaScript sözdizimi ve Android XML ayrıştırması geçti. Android SDK ve Gradle Wrapper bulunmadığı için APK derlemesi doğrulanmadı.
